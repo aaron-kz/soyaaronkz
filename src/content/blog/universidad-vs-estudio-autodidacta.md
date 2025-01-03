@@ -56,4 +56,4 @@ La elección entre ir a la universidad y estudiar de forma autodidacta depende d
 
 Estoy documentando mi viaje aprendiendo **Desarrollo de Software** de forma autodidacta, y de paso comparto recursos gratuitos que uso, tips y algunas estrategias para ser más efectivo a la hora de aprender algo nuevo.
 
-Puedes seguirme en [YouTube](https://www.youtube.com/channel/UCx0Cc5JT_p0SCOVCPwbwu9A) para estar al tanto.
+Puedes seguirme en <a href="https://www.youtube.com/channel/UCx0Cc5JT_p0SCOVCPwbwu9A" target="_blank">Youtube</a> para estar al tanto.
