@@ -1,6 +1,6 @@
 ---
 title: "Universidad v/s Estudio autodidacta"
-description: "Tomar la decisión de asistir a la universidad o seguir un camino autodidacta es un desafío para muchos. ¿Es una opción inherentemente mejor que la otra?"
+description: "Tomar la decisión de asistir a la universidad o seguir un camino autodidacta es un desafío para muchos. ¿Hay una opción inherentemente mejor que la otra?"
 pubDate: "Jan 2 2025"
 heroImage: "/uni_vs_autodidacta.jpg"
 tags: ["estudio"]
