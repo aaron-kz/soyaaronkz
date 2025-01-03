@@ -1,0 +1,148 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+---
+
+<BaseLayout sideBarActiveItemID="support-my-work">
+    <h2 class="my-10 mx-auto text-center md:px-20">
+        Si te interesa ayudar a este servidor (<span class="font-bold"
+            >a escapar de Cuba</span
+        > xD) estos son algunos de los métodos que puedes usar:
+    </h2>
+    <div class="gap-6 flex-col flex">
+        <div class="dropdown m-auto w-full md:w-auto">
+            <button
+                class="btn w-full md:w-96 btn-outline gap-2 flex justify-between"
+            >
+                <img
+                    src="https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=024"
+                    class="w-9 h-9"
+                    alt="Bitcoin"
+                />
+                <div>Bitcoin / BTC Lighting</div>
+                <div class="w-9"></div>
+            </button>
+            <ul
+                class="dropdown-content menu p-2 shadow-sm shadow-neutral-400 bg-base-100 mx-auto rounded-box w-full md:w-96 z-10"
+            >
+                <li>
+                    <a href="/img-donation/btc-onchain.jpg">Bitcoin Onchain</a>
+                </li>
+                <li>
+                    <a href="/img-donation/btc-lighting.jpg">Bitcoin Lighting</a
+                    >
+                </li>
+            </ul>
+        </div>
+
+        <div class="dropdown m-auto w-full md:w-auto">
+            <button
+                class="btn w-full md:w-96 btn-outline gap-2 flex justify-between"
+            >
+                <img src="/img-donation/usdt.svg" class="w-9 h-9" alt="USDT" />
+                <div>USDT</div>
+                <div class="w-9"></div>
+            </button>
+            <ul
+                class="dropdown-content menu p-2 shadow-sm shadow-neutral-400 bg-base-100 mx-auto rounded-box w-full md:w-96 z-20"
+            >
+                <li>
+                    <a href="/img-donation/usdt-trc20.jpg">USDT TRC20</a>
+                </li>
+                <li>
+                    <a href="/img-donation/usdt-bep20.jpg">USDT BEP20</a>
+                </li>
+                <li>
+                    <a href="/img-donation/usdt-erc20.jpg">USDT ERC20</a>
+                </li>
+                <li>
+                    <a href="/img-donation/usdt-polygon.jpg">USDT Polygon</a>
+                </li>
+            </ul>
+        </div>
+
+        <a
+            href="https://qvapay.com/payme/akz"
+            target="_blank"
+            class="btn btn-outline w-full md:w-96 gap-2 flex justify-between m-auto"
+        >
+            <img src="/img-donation/qvapay.svg" class="w-9 h-9" alt="qvapay" />
+            <div>Qvapay / Crypto</div>
+            <div class="w-9 h-9"></div>
+        </a>
+
+        <div class="dropdown m-auto w-full md:w-auto">
+            <button
+                class="btn w-full md:w-96 btn-outline gap-2 flex justify-between"
+            >
+                <img
+                    src="https://i.ibb.co/TgDc2Np/card.png"
+                    class="w-9 h-9"
+                    alt="CUP/MLC"
+                />
+
+                <div>CUP / MLC</div>
+                <div class="w-9"></div>
+            </button>
+            <ul
+                class="dropdown-content menu p-2 shadow-sm shadow-neutral-400 bg-base-100 mx-auto rounded-box w-full md:w-96 z-[1]"
+            >
+                <li>
+                    <a href="/img-donation/cup.jpg">CUP</a>
+                </li>
+                <li>
+                    <a href="/img-donation/mlc.jpg">MLC</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="gap-6 flex-col flex">
+            <div class="dropdown m-auto w-full md:w-auto">
+                <button
+                    class="btn w-full md:w-96 btn-outline gap-2 flex justify-between"
+                >
+                    <img
+                        src="https://static-00.iconduck.com/assets.00/visa-icon-256x79-nikia4dp.png"
+                        class="w-9"
+                        alt="Visa/Mastercard"
+                    />
+                    <div>MasterCard / Visa</div>
+                    <div class="w-9"></div>
+                </button>
+                <ul
+                    class="dropdown-content menu p-2 shadow-sm shadow-neutral-400 bg-base-100 mx-auto rounded-box w-full md:w-96"
+                >
+                    <li>
+                        <a href="https://tppay.me/m4jb2m9z" target="_blank"
+                            >5 USD</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://tppay.me/m4jbe1g9" target="_blank"
+                            >10 USD</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://tppay.me/m4jc2twp" target="_blank"
+                            >25 USD</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://tppay.me/m4jc4tki" target="_blank"
+                            >50 USD</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://tppay.me/m4jc5v0u" target="_blank"
+                            >100 USD</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://tppay.me/m4jc6zg1" target="_blank"
+                            >200 USD</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</BaseLayout>

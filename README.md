@@ -1,12 +1,12 @@
-# Astrofy | Personal Portfolio Website Template
+# Aaron KZ | Personal Website
 
-![Astrofy | Personal Porfolio Website Template](public/social_img.webp)
+![Aaron KZ | Personal Website](public/social_img.webp)
 
-Astrofy is a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS. Create in minutes a website with a Blog, CV, Project Section, Store, and RSS Feed.
+This is a free and open-source Personal Portfolio Website built with Astro and TailwindCSS.
 
 ## Demo
 
-View a live demo of [Astrofy](https://astrofy-template.netlify.app/)
+View a live demo [here](https://soyaaronkz.pages.dev/)
 
 ## Installation
 
@@ -124,7 +124,7 @@ The timeline components are used to confirm the CV.
 
 #### Card & HorizontalCard
 
-The cards are primarly used for the Project and the Blog components. They include a picture, a title, and a description. 
+The cards are primarly used for the Project and the Blog components. They include a picture, a title, and a description.
 
 ```html
 <HorizontalCard title="Card Title" img="imge_url" desc="Description" url="Link
@@ -155,11 +155,11 @@ This component is already included in the Store layout of the template. In case 
 
 #### Adding a Custom Component
 
-To add a custom component, you can create a .astro file in the components folder under the source folder. 
+To add a custom component, you can create a .astro file in the components folder under the source folder.
 
-Components must follow this template. The ```---``` represents the code fence and uses Javascript and can be used for imports. 
+Components must follow this template. The ```---``` represents the code fence and uses Javascript and can be used for imports.
 
-The HTML component is the actual style of your new component. 
+The HTML component is the actual style of your new component.
 
 ```html
 ---
@@ -168,13 +168,13 @@ The HTML component is the actual style of your new component.
 <!-- Component Template (HTML + JS Expressions) -->
 ```
 
-For more details, see the [astro components](https://docs.astro.build/en/core-concepts/astro-components/) documentation here. 
+For more details, see the [astro components](https://docs.astro.build/en/core-concepts/astro-components/) documentation here.
 
 ### Layouts
 
 Include `BaseLayout` in each page you add and `PostLayout` to your post pages.
 
-The BaseLayout defines a general template for each new webpage you want to add. It imports constants SITE_TITLE and SITE_DESCRIPTION which can be modified in the ```../config``` folder. Data placed there can be imported anywhere using import. 
+The BaseLayout defines a general template for each new webpage you want to add. It imports constants SITE_TITLE and SITE_DESCRIPTION which can be modified in the ```../config``` folder. Data placed there can be imported anywhere using import.
 
 ### Content
 
@@ -278,12 +278,4 @@ Please be wary of working on issues _not_ marked as `accepted`. Just because som
 
 ## License
 
-Astrofy is licensed under the MIT license — see the [LICENSE](https://github.com/manuelernestog/astrofy/blob/main/LICENSE) file for details.
-
-## Contributors
-
-<a href="https://github.com/manuelernestog/astrofy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=manuelernestog/astrofy" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
+MIT license — see the [LICENSE](https://github.com/manuelernestog/astrofy/blob/main/LICENSE) file for details.

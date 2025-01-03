@@ -1,78 +1,195 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HorizontalCard from "../components/HorizontalCard.astro";
+// import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
-import createSlug from "../lib/createSlug"
+import createSlug from "../lib/createSlug";
 
-const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const posts = (await getCollection("blog")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
 
 const last_posts = posts.slice(0, 3);
 ---
 
 <BaseLayout sideBarActiveItemID="home">
-  <div class="pb-12 mt-5">
-    <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Manuel Ernesto</div>
-    <div class="text-3xl py-3 font-bold">Software Engineer and Entrepreneur</div>
-    <div class="py-2">
-      <text class="text-lg">
-        This is <b>Astrofy</b> a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS.
-        Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed. I hope you find
-        it useful!
-      </text>
+    <div class="pb-12 mt-5">
+        <div class="pb-12 mt-5">
+            <div class="py-2">
+                <h1 class="text-3xl md:text-4xl font-bold mb-1 font-mon">
+                    Hola, soy Aaron KZ
+                </h1>
+                <p class="text-2xl mb-3 font-mono">Software Developer</p>
+
+                <text class="text-lg">
+                    Desarrollo <span class="font-semibold">soluciones web</span>
+                    eficientes y adaptadas a tus necesidades, con el objetivo de
+                    <span class="font-semibold">potenciar tu negocio</span> o tu
+                    marca personal.
+                </text>
+            </div>
+
+            <!-- Typer.js -->
+            <p>
+                <span
+                    class="typer text-lg text-sky-500 mt-1 bg-inherit"
+                    id="main"
+                    data-words="Creo tu web desde cero,Construyo tu tienda online,Hago realidad tus ideas"
+                    data-delay="50"
+                    data-deleteDelay="1000"
+                    data-colors="current"></span>
+
+                <span class="cursor" data-owner="main"></span>
+            </p>
+
+            <script
+                is:inline
+                src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
+            <h2 class="text-xl font-semibold mt-7">Tech Stack Principal:</h2>
+
+            <div class="flex flex-wrap gap-2 mt-5 p-1">
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black"
+                    alt="JavaScript"
+                />
+
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=flat"
+                    alt="Typescript"
+                />
+
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/Astro-FF5D01?logo=astro&logoColor=fff&style=flat"
+                    alt="astro"
+                />
+
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=flat"
+                    alt="react"
+                />
+
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat"
+                    alt="tailwindcss"
+                />
+
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/Supabase-green?logo=supabase"
+                    alt="Supabase"
+                />
+
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/WordPress-blue?logo=wordpress&logoColor=white"
+                    alt="WordPress Badge"
+                />
+            </div>
+            <h2 class="text-xl font-semibold mt-7">Otras herramientas:</h2>
+
+            <div class="flex gap-2 mt-5 p-1 flex-wrap">
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white"
+                    alt="Figma"
+                />
+
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
+                    alt="GitHub"
+                />
+
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/pnpm-ffffff?logo=pnpm&logoColor=f69220"
+                    alt="pnpm"
+                />
+
+                <!-- <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
+              <img
+                  src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white"
+                  alt="Vite"
+              />
+          </a> -->
+
+                <img
+                    class="rounded-lg transform transition-transform duration-100 hover:scale-105"
+                    src="https://img.shields.io/badge/Obsidian-483699?logo=obsidian&logoColor=white"
+                    alt="Obsidian"
+                />
+            </div>
+
+            <div class="mt-10 flex gap-3">
+                <a
+                    class="btn btn-active active:text-[#a6adbb] active:bg-[#111419]"
+                    href="mailto:aaronkz.pv@gmail.com"
+                    target="_blank"
+                >
+                    Contacto
+                </a>
+
+                <a
+                    href="/projects/"
+                    class="btn active:bg-[#a6adbb] active:text-[#1d232a] btn-outline"
+                >
+                    Portfolio
+                </a>
+            </div>
+        </div>
     </div>
-    <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
-        Get This template
-      </a>
+
+    <!-- <div>
+        <div class="text-3xl w-full font-bold mb-2">
+            My last projects {"</>"}
+        </div>
     </div>
-  </div>
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
-  </div>
+    <HorizontalCard
+        title="Demo Project 1"
+        img="/post_img.webp"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        url="#"
+        badge="NEW"
+    />
+    <div class="divider my-0"></div>
+    <HorizontalCard
+        title="Demo Project 2"
+        img="/post_img.webp"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        url="#"
+    />
+    <div class="divider my-0"></div>
+    <HorizontalCard
+        title="Demo Project 3"
+        img="/post_img.webp"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        url="#"
+        badge="FOSS"
+    /> -->
 
-  <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
+    <!-- <div>
+        <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+    </div>
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
-  </div>
-
-  {
-    last_posts.map((post) => (
-      <>
-        <HorizontalCard
-          title={post.data.title}
-          img={post.data.heroImage}
-          desc={post.data.description}
-          url={"/blog/" + createSlug(post.data.title, post.slug)}
-          target="_self"
-          badge={post.data.badge}
-        />
-        <div class="divider my-0" />
-      </>
-    ))
-  }
+    {
+        last_posts.map((post) => (
+            <>
+                <HorizontalCard
+                    title={post.data.title}
+                    img={post.data.heroImage}
+                    desc={post.data.description}
+                    url={"/blog/" + createSlug(post.data.title, post.slug)}
+                    target="_self"
+                    badge={post.data.badge}
+                />
+                <div class="divider my-0" />
+            </>
+        ))
+    } -->
 </BaseLayout>
