@@ -16,7 +16,7 @@ Cada vez que sale a la palestra el debate sobre si ir a la universidad y tener u
 
 Si bien es cierto que el objetivo de la universidad es formar a profesionales bien preparados, en la actualidad, en un mundo tan interconectado, es absurdo pensar que esta es la única forma de ser bueno en tu profesión, o que una persona que se formó en la uni está indiscutiblemente más preparada que alguien que estudió por su cuenta.
 
-Decir este tipo de cosas así sin más es de personas bastante dogmáticas, como que están convencidas de que el hecho de tener un título significa que tuvo acceso a información ultrasecreta, que obtuvo superpoderes o algo por el estilo, y por ende está mejor preparado que el resto de simples mortales ([falacia ad verecundiam / argumento de autoridad](https://lenguaje.com/falacia-ad-verecundiam/))
+Decir este tipo de cosas así sin más es de personas bastante dogmáticas, creen si alguien tiene un título, esto significa que tuvo acceso a información ultrasecreta, que obtuvo superpoderes o algo por el estilo, y por ende está mejor preparado que el resto de simples mortales ([falacia ad verecundiam / argumento de autoridad](https://lenguaje.com/falacia-ad-verecundiam/))
 
 Aunque el aprendizaje únicamente autodidacta (digo únicamente porque, aunque estudies en la uni, si no estudias también de forma autodidacta serás un mediocre) no es para todos, en la actualidad puedes aprender por tu cuenta literalmente todo lo que se aprende en la uni.
 
@@ -54,6 +54,6 @@ La elección entre ir a la universidad y estudiar de forma autodidacta depende d
 
 ---
 
-Estoy documentando mi viaje aprendiendo **Desarrollo de Software** de forma autodidacta, y de paso comparto recursos gratuitos que uso, tips y algunas estrategias para ser más efectivo a la hora de aprender algo nuevo.
+Estoy documentando mi viaje mientras aprendo **Desarrollo de Software** de forma autodidacta, y de paso comparto recursos gratuitos que uso, tips y algunas estrategias para ser más efectivo a la hora de aprender cosas nuevas.
 
 Puedes seguirme en <a href="https://www.youtube.com/channel/UCx0Cc5JT_p0SCOVCPwbwu9A" target="_blank">Youtube</a> para estar al tanto.
